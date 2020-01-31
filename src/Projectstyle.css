@@ -1,0 +1,35 @@
+.container-box{
+ background: white;
+ width:100%;
+ height:1000px;
+margin-top:-120rem;
+
+
+}
+
+.section1 {
+    display: inline-block;
+    width: 82rem;
+    z-index: 1;
+    margin-left: 40px;
+    padding-top: 50px;
+    height: 400px;
+    background: lightpink;
+    box-shadow: inset 30px 40px 20px 40px plum,
+    inset 10px 15px 15px 30px hotpink,
+    10px 15px 15px 30px grey,
+    inset 10px 25px 25px 40px lightpink;
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    width:82rem;
+
+    padding : -30px;
+    height:450px;
+    background-position: center;
+    background: rgba(0,0,0,0.2);
+    box-shadow: inset 2px 3px 50px gray;
+}
+

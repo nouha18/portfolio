@@ -1,0 +1,67 @@
+.container1{
+    width:83rem;
+    position: absolute;
+    background: #333333;
+    justify-content: space-around;
+  display: flex;
+    flex-direction: row;
+}
+.container .card{
+    position: relative;
+}
+.container .card .face{
+    width: 250px;
+    height: 200px;
+    transition: 0.4s;
+}
+.container .card .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform : translateY(100px);
+}
+.container .card:hover .face.face1 {
+    box-shadow: inset  0 00px 50px #f0f, 0 0 50px #0ff;
+    transform : translateY(0px);
+}
+.container .card .face.face1 .content{
+ opacity:1;
+    text-align : center;
+    display: inline-block;
+    color: #eeeeee;
+}
+.container .card:hover .face.face1 .content{
+   font-size: 3em;
+    display: block;
+    color: #eeeeee;
+}
+
+.container .card .face.face1 .content h3{
+    font-size: 0.5em;
+   text-align: center;
+    color: #eeeeee;
+}
+.container .card .face.face1 .content a{
+  transition: 0.5s;
+}
+
+.container .card .face.face2{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    z-index: 0;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    transform : translateY(-100px);
+}
+
+.container .card:hover .face.face2 {
+    box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+    transform : translateY(0px);
+}
