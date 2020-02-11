@@ -1,0 +1,168 @@
+.about-box{
+    display: block;
+    margin:0;
+    padding:25px 30px 20px 20px;
+    width:100%;
+    height: 680px;
+    align-content: center;
+    background: lightpink;
+}
+
+.content-box{
+    display: flex;
+    align-items: center;
+}
+.img-box ::before{
+    margin-left: 120px;
+    width:260px;
+    height:260px;
+    border-radius: 60px;
+    box-shadow:0 0 3px 3px  hotpink;
+}
+.img-box{
+    width:260px;
+    height:260px;
+    margin:60px 120px 35px;
+    border-radius: 60px;
+    box-shadow:0 0 3px 3px  hotpink;
+}
+h1 .line{
+    color: white;
+    height:3px;
+    width:520px;
+    left:50px
+}
+p{
+  margin:120px 25px 10px 20px;
+    top: 250px;
+    font-weight: normal;
+    width:500px;
+    height: auto;
+    font-family: Consolas;
+}
+ h1{
+   left: 180px;
+   color:floralwhite;
+   margin: 0 12px 10px 80px;
+}
+.social-menu {
+    display: flex;
+    top:-60px;
+    width: 270px;
+    height: 60px;
+    margin-left: 560px;
+    padding-left: 25px;
+    border-radius: 45px;
+    align-content: center;
+    background-position: center;
+
+}
+
+.social-menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    top:120px;
+    width: 80%;
+    margin:3px 5px 5px 2px;
+}
+
+.social-menu b-button{
+    background: white;
+    width: 90px;
+    height: 40px;
+    top:110px
+}
+
+.social-menu li{
+    list-style: none;
+    align-content: center;
+    justify-content: space-between;
+    width:50px;
+    height:40px;
+    border-radius: 15px;
+    align-items: center;
+    margin-left: 6px;
+    margin-right: 5px;
+    margin-top: 5px;
+    box-shadow: 1px 0 2px 3px hotpink;
+
+ }
+.social-menu li :hover{
+    border-radius: 15px;
+    align-items: center;
+
+    box-shadow:0 0 3px 3px  hotpink;
+    transform: scale(2);
+ }
+
+
+.social-menu a {
+    padding-left: 4px;
+    background: transparent;
+    color: transparent;
+    align-content: space-between;
+
+}
+
+.contactme-box{
+    width:100%;
+    left: -20px;
+    position: relative;
+    height:500px;
+    margin: 170px 0 0 0;
+    background: linear-gradient(to top,transparent, pink, transparent,hotpink );
+}
+.form{
+    background-position: center;
+    padding:40px 10px 0 90px;
+    width:30%;
+    height:320px;
+    margin: 15px 0 0 10px;
+    margin-left: 30%;
+    left:40%;
+    border-radius: 15px;
+    background: lightpink;
+    box-shadow: 0 0 2px 5px deeppink ;
+}
+@media screen and (max-width:500px){
+    .contactme-box{
+        width:100%;
+        left: -10px;
+        position: relative;
+        height:120px;
+        margin: 40px 0 0 0;
+        background: linear-gradient(to top,transparent, pink, transparent,hotpink );
+    }
+    .title{
+        background: white;
+        transition:all 1s ease;
+    }
+
+    .about-box{
+        margin:0;
+        display: flex;
+        flex-direction: column;
+        padding:10px 10px 5px 10px;
+        width:100%;
+        height: 680px;
+        align-content: center;
+        background: lightpink;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

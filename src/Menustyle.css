@@ -1,0 +1,99 @@
+.header {
+    z-index: 100;
+    width: 299px;
+    height: 900px;
+    position: absolute;
+    top: 30px;
+    padding-right: 2rem;
+    left:-122px;
+    background:transparent;
+    border-radius: 0 50% 35% 0;
+    transition: all 0.6s cubic-bezier(0.9,0,0.33,1);
+}
+.header :hover{
+    width:80%;
+}
+.navigation {
+    width: 140px;
+    position: absolute;
+    height: 470px;
+    padding-right: 20px;
+      top: 20px;
+    left:2rem;
+    right: 1rem;
+    align-content:space-around;
+    background: linear-gradient(0deg,transparent,palevioletred,transparent);
+    border-radius: 0 50% 35% 0;
+    box-shadow:0 0 3px 3px  purple;
+    transition: all 0.6s cubic-bezier(0.9,0,0.33,1);
+}
+
+.navigation :hover{
+    width:20%;
+
+}
+
+.navigation-menu {
+    width: 125px;
+    height: 90px;
+    display: block;
+    position: sticky;
+    margin-top: 100px;
+    top: 50px;
+    left: 10px;
+    cursor: pointer;
+    transition: all 10s cubic-bezier(0.9,0,0.33,1);
+}
+
+.navigation-icon {
+    width: 15px;
+    height: 20px;
+    display: block;
+    top:80px;
+    left:30px;
+    background: hsla(312,51%,41%,0.0);
+    transition: all 0.6s cubic-bezier(0.9,0,0.33,1);
+}
+
+.navigation-icon .topbar{
+    width: 30px;
+    height: 2px;
+    display: block;
+    top:15px;
+    background:deeppink;
+    position: absolute;
+
+}
+.navigation-icon .middlebar{
+    width: 30px;
+    height: 2px;
+    display: block;
+    top:5px;
+    background: deeppink;
+    position: absolute;
+}
+.navigation-icon .bottombar{
+    width: 30px;
+    height: 2px;
+    display: block;
+    top:10px;
+    background: deeppink;
+    position: absolute;
+}
+.navigation-menu .ul{
+    list-style: none;
+}
+
+.navigation-menu li{
+    font-family: Forte;
+    justify-content: space-around;
+    color:deeppink;
+    font-weight: bold;
+    list-style: none;
+    font-size: 1.5rem;
+}
+.navigation-menu link {
+color:white;
+
+}
+
